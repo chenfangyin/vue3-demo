@@ -7,5 +7,7 @@ module.exports = {
       .set('@c', resolve('src/components'))
       .set('@a', resolve('src/assets'))
       .set('@v', resolve('src/views'))
+      .set('@css', resolve('src/assets/styles'))
+      .set('@img', resolve('src/assets/images'))
   }
 }
